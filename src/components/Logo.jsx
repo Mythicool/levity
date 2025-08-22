@@ -53,7 +53,7 @@ export default function Logo({ className = "h-8 w-auto", animate = false, compac
   const logoContent = (
     <div className={`flex justify-center ${className}`}>
       <img
-        src="/levity-logo.svg"
+        src="levity-logo.svg"
         alt="Levity Breakfast House"
         className="h-32 sm:h-40 md:h-48 w-auto"
       />
