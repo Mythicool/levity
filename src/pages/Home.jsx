@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
         {/* Background Pattern */}
         <div className="absolute inset-0 hero-pattern opacity-30"></div>
         
@@ -38,7 +38,7 @@ export default function Home() {
           >
             <motion.div variants={fadeInUp} className="space-y-6">
               <div className="flex justify-center">
-                <Logo className="text-coffee-800" />
+                <Logo className="w-full max-w-sm sm:max-w-md md:max-w-lg" />
               </div>
               <p className="text-xl sm:text-2xl text-coffee-700 font-medium">
                 {restaurantInfo.tagline}
